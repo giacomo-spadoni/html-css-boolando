@@ -43,6 +43,10 @@ a {
     padding-top: 2rem;
 }
 
+.pad-bot {
+    padding-bottom: 2rem;
+}
+
 .pad {
     padding: 2rem;
 }
@@ -73,6 +77,10 @@ header {
     padding-right: 1rem;
 }
 
+.head-icon i {
+    margin-right: 0.2rem;
+}
+
 /************** main style **************/
 
 .card {
@@ -82,12 +90,18 @@ header {
 
 .card-img {
     width: 100%;
-    /* opacity: 10%; */
+}
+
+
+.card-img-back {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
 
 .tags {
     position: absolute;
-    top: 70%;
+    top: 82%;
 }
 
 .tags * {
@@ -130,6 +144,16 @@ header {
 #price-old {
     color: grey;
     text-decoration: line-through;
+}
+
+.card-img:hover {
+    opacity: 0%;
+    transition: 0.7s;
+}
+
+.heart:hover {
+    color: red;
+    font-size: 1.3em;
 }
 
 /************** footer style **************/
