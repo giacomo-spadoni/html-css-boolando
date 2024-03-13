@@ -5,8 +5,153 @@
     box-sizing: border-box;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-vertical-center {
+    align-items: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+header li {
+    list-style-type: none;
+    padding: 1.5rem 1rem;
+}
+
+footer li {
+    list-style-type: none;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pad-top {
+    padding-top: 2rem;
+}
+
+.pad {
+    padding: 2rem;
+}
+
 /************** header style **************/
+header {
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+.head-link {
+    width: 25%;
+    text-align: start;
+}
+
+.head-logo {
+    width: 25%;
+    text-align: center;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.head-icon {
+    width: 25%;
+    text-align: end;
+    padding-right: 1rem;
+}
 
 /************** main style **************/
 
+.card {
+    width: 30%;
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+    /* opacity: 10%; */
+}
+
+.tags {
+    position: absolute;
+    top: 70%;
+}
+
+.tags * {
+    margin-right: 0.5rem;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.8em;
+}
+
+.discount {
+    background-color: red;
+}
+
+.eco {
+    background-color: rgb(42, 142, 35);
+}
+
+.heart {
+    padding: 0.8rem;
+    background-color: white;
+    position: absolute;
+    right: 0%;
+    top: 1%;
+}
+
+.brand {
+    color: grey;
+}
+
+.dress {
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#price-old {
+    color: grey;
+    text-decoration: line-through;
+}
+
 /************** footer style **************/
+
+footer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.icon {
+    padding-top: 0.5rem;
+}
+
+.icon i {
+    margin-right: 0.5rem;
+}
