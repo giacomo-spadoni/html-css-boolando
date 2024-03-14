@@ -18,6 +18,10 @@
     justify-content: space-between;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 header li {
     list-style-type: none;
     padding: 1.5rem 1rem;
@@ -84,17 +88,17 @@ header {
 /************** main style **************/
 
 .card {
-    width: 30%;
+    width: 360px;
     position: relative;
 }
 
 .card-img {
-    width: 100%;
+    width: 360px;
 }
 
 
 .card-img-back {
-    width: 100%;
+    width: 360px;
     position: absolute;
     z-index: -1;
 }
@@ -154,6 +158,18 @@ header {
 .heart:hover {
     color: red;
     font-size: 1.3em;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
 }
 
 /************** footer style **************/
